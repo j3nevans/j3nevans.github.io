@@ -91,3 +91,11 @@
   .mt-8 {
     margin-top: 8rem;
   }
+
+  .z-neg1 {
+    z-index: -1;
+  }
+
+  .z-2 {
+    z-index: 2;
+  }
