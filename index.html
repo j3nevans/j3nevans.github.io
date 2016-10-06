@@ -51,49 +51,49 @@
 
 </div>
 
-  <marquee class="fixed t-0 w-100vw h-100vh border border-box blue" direction="down" behavior="alternate">
+  <marquee class="fixed t-0 w-100vw h-100vh border border-box blue pointer-events-none" direction="down" behavior="alternate">
 
     <marquee behavior="alternate">
       internet explorer is a bad thing to use but a great thing to be
     </marquee>
 
     <marquee behavior="alternate" scrollamount="2.5">
-      <form action>
+      <form class="pointer-events-auto" action>
         First name: <input type="text" name="FirstName" value="Jen"><br>
         Last name: <input type="text" name="LastName" value="Evans"><br>
       </form>
     </marquee>
 
     <marquee behavior="alternate" scrollamount="3.5">
-      <form action="demo_form.asp" method="get">
-        <input type="radio" name="gender" id="male" value="male"> Male<br>
-        <input type="radio" name="gender" id="female" value="female"> Female<br>
-        <input type="radio" name="gender" id="other" value="other" checked="checked">Other<br><br>
+      <form class="pointer-events-auto">
+        <input class="pointer-events-auto" type="radio" name="gender" id="male" value="male"> Male<br>
+        <input class="pointer-events-auto" type="radio" name="gender" id="female" value="female"> Female<br>
+        <input class="pointer-events-auto" type="radio" name="gender" id="other" value="other" checked="checked"> Other<br><br>
       </form>
     </marquee>
 
   </marquee>
 
-  <marquee class="fixed t-0 w-100vw h-100vh" behavior="alternate" direction="up">
+  <marquee class="fixed t-0 w-100vw h-100vh pointer-events-none" behavior="alternate" direction="up">
     <marquee behavior="alternate">
-      <textarea rows="5" cols="25"> haha and then what
+      <textarea class="pointer-events-auto" rows="5" cols="25"> haha and then what
       </textarea>
     </marquee>
   </marquee>
 
-  <marquee class="fixed t-0 w-100vw h-100vh" behavior="alternate" direction="up">
+  <marquee class="fixed t-0 w-100vw h-100vh pointer-events-none" behavior="alternate" direction="up">
     <marquee behavior="alternate" scrollamount="3">
-      <select>
-        <option value="dogs">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="opel">Opel</option>
-        <option value="audi">Audi</option>
+      <select class="pointer-events-auto">
+        <option value="under $25,000">under $25,000</option>
+        <option value="$25,000-$49,999">$25,000-$49,999</option>
+        <option value="$50,000-$99,999">$50,000-$99,999</option>
+        <option value="over $100,000">over $100,000</option>
       </select>
     </marquee>
   </marquee>
 
 
-  <marquee class="fixed t-0 w-100vw h-100vh" behavior="alternate" direction="up">
+  <marquee class="fixed t-0 w-100vw h-100vh pointer-events-none" behavior="alternate" direction="up">
     <marquee behavior="alternate" scrollamount="1">
       <a href="https://www.hillaryclinton.com/donate/" target="_blank">
         <button type="button" class="padding-05">Donate</button>

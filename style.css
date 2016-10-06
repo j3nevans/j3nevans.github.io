@@ -110,6 +110,14 @@
     font-size: 2rem;
   }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events-auto {
+  pointer-events: auto;
+}
+
   @media only screen and (max-width: 1200px) {
         .display-none-s {
           display: none;
