@@ -74,6 +74,10 @@
     width: 75rem;
   }
 
+  .padding-05 {
+    padding: .5rem;
+  }
+
   .border {
     border: solid;
     border-width: 10px;
