@@ -19,6 +19,7 @@
 
   img {
     max-width: 80%;
+    padding-bottom: 4rem;
   }
 
   .sans-serif {
@@ -27,6 +28,18 @@
 
   .blue {
     color: blue;
+  }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  .rotate-left {
+    transform: rotateZ(-90deg);
+  }
+
+  .rotate-right {
+    transform: rotateZ(90deg);
   }
 
   .content-container {
