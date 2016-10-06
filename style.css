@@ -3,11 +3,21 @@
     padding: 0;
   }
 
+  html {
+    font-size: 12px;
+  }
+
   h1 {
-    color: blue;
-    font-family: 'Work Sans', sans-serif;
     font-weight: 100;
-    font-size: 4em;
+    font-size: 4rem;
+  }
+
+  .sans-serif {
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .blue {
+    color: blue;
   }
 
   .everything-container {
@@ -17,21 +27,19 @@
     position: absolute;
   }
 
-  .div-1 {
-    background-color: red;
-  }
-
-  .div-2 {
-    background-color: orange;
-  }
-
-  .div-3 {
-    background-color: yellow;
-  }
 
   .fixed { position: fixed; }
 
   .t-0 { top: 0; }
-  
+
   .w-100vw { width: 100vw; }
   .h-100vh { height: 100vh; }
+
+  .border {
+    border: solid;
+    border-width: 10px;
+  }
+
+  .border-box {
+    box-sizing: border-box;
+  }
