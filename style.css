@@ -34,13 +34,13 @@
     display: inline-block;
   }
 
-  .relative {
-    position: relative;
+  .display-none {
+    display: none;
   }
 
-  .absolute {
-    position: absolute;
-  }
+
+  .relative { position: relative; }
+  .absolute { position: absolute; }
 
   .rotate-left {
     transform-origin: top left;
@@ -99,3 +99,19 @@
   .z-2 {
     z-index: 2;
   }
+
+  .mobile-title {
+    -webkit-transform: rotate3d(90,45,45,35deg);
+    margin: 100px 100px 0 50px;
+    font-size: 2rem;
+  }
+
+  @media only screen and (max-width: 1200px) {
+        .display-none-s {
+          display: none;
+        }
+
+        .block-s {
+          display: block;
+        }
+      }

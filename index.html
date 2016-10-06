@@ -3,18 +3,24 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,400,600" rel="stylesheet">
+  <title> everything is fun </title>
 </head>
 <body>
 
 
 <div class="content-container center relative">
 
-  <div class="sans-serif blue w-75rem mt-8 rotate-left fixed">
+  <div class="sans-serif blue w-75rem mt-8 rotate-left fixed display-none-s">
     <h1 class="t-right">everything is fun</h1>
   </div>
 
-  <div class="sans-serif blue w-75rem mt-8 rotate-right fixed">
+  <div class="sans-serif blue w-75rem mt-8 rotate-right fixed display-none-s">
     <h1>everything is terrible</h1>
+  </div>
+
+  <div class="mobile-title sans-serif blue display-none fixed block-s">
+    <h1>everything is fun, <br>
+      everything is terrible </h1>
   </div>
 
 <div class="t-right">
@@ -48,10 +54,10 @@
   <marquee class="fixed t-0 w-100vw h-100vh border border-box blue" direction="down" behavior="alternate">
 
     <marquee behavior="alternate">
-      This text will bounce
+      Internet explorer is a bad thing to use but a great thing to be
     </marquee>
 
-    <marquee behavior="alternate">
+    <marquee behavior="alternate" scrollamount="2">
       Hello world
     </marquee>
 
@@ -62,7 +68,7 @@
       </form>
     </marquee>
 
-    <marquee behavior="alternate">
+    <marquee behavior="alternate" scrollamount="3.5">
       <form action="demo_form.asp" method="get">
         <input type="radio" name="gender" id="male" value="male"> Male<br>
         <input type="radio" name="gender" id="female" value="female"> Female<br>
@@ -73,13 +79,22 @@
   </marquee>
 
   <marquee class="fixed t-0 w-100vw h-100vh" behavior="alternate" direction="up">
-
     <marquee behavior="alternate">
       <textarea rows="5" cols="50"> haha and then what
       </textarea>
     </marquee>
   </marquee>
 
+  <marquee class="fixed t-0 w-100vw h-100vh" behavior="alternate" direction="up">
+    <marquee behavior="alternate" scrollamount="3">
+      <select>
+        <option value="dogs">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
+    </marquee>
+  </marquee>
 
 </body>
 </html>
