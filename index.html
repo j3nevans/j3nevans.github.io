@@ -7,7 +7,7 @@
 <body>
 
 
-<div class="content-container center relative z-2">
+<div class="content-container center relative">
 
   <div class="sans-serif blue w-75rem mt-8 rotate-left fixed">
     <h1 class="t-right">everything is fun</h1>
@@ -46,17 +46,37 @@
 </div>
 
   <marquee class="fixed t-0 w-100vw h-100vh border border-box blue" direction="down" behavior="alternate">
+
     <marquee behavior="alternate">
       This text will bounce
     </marquee>
+
     <marquee behavior="alternate">
       Hello world
     </marquee>
+
     <marquee behavior="alternate">
       <form action>
-        First name: <input type="text" name="FirstName" value="Mickey"><br>
+        First name: <input type="text" name="FirstName" value="Jen"><br>
         <input type="submit" value="Submit">
       </form>
+    </marquee>
+
+    <marquee behavior="alternate">
+      <form action="demo_form.asp" method="get">
+        <input type="radio" name="gender" id="male" value="male"> Male<br>
+        <input type="radio" name="gender" id="female" value="female"> Female<br>
+        <input type="radio" name="gender" id="other" value="other" checked="checked">Other<br><br>
+      </form>
+    </marquee>
+
+  </marquee>
+
+  <marquee class="fixed t-0 w-100vw h-100vh" behavior="alternate" direction="up">
+
+    <marquee behavior="alternate">
+      <textarea rows="5" cols="50"> haha and then what
+      </textarea>
     </marquee>
   </marquee>
 
